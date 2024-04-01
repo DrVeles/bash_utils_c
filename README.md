@@ -9,6 +9,16 @@ Cat is one of the most commonly used commands in Unix-like operating systems.
 
 `cat [OPTION] [FILE]...`.
 
+### Compilation and testing
+
+in `./src/cat` directory
+
+`make all` - build app.
+
+### Testing
+
+`sh test_cat.sh` - run application tests.
+
 ### cat Options
 
 | No. | Options | Description |
@@ -25,6 +35,16 @@ Cat is one of the most commonly used commands in Unix-like operating systems.
 A utility for searching files using regular expressions.
 
 `grep [options] template [file_name]`
+
+### Compilation
+
+in `./src/grep` directory
+
+`make all` - build app.
+
+### Testing
+
+`sh test_grep.sh` - run application tests.
 
 ### grep Options
 
