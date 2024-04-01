@@ -28,7 +28,7 @@ A utility for searching files using regular expressions.
 
 ### grep Options
 
-| | No. | Options | Description |
+|  No. | Options | Description |
 | ------ | ------ | ------ |
 | 1 | -e | template |
 | 2 | -i | Ignores case differences. |
@@ -39,6 +39,6 @@ A utility for searching files using regular expressions.
 | 7 | -h | Outputs matching lines without preceding them with file names. |
 | 8 | -s | Suppresses error messages about non-existent or unreadable files. |
 | 9 | -f file | Retrieves regular expressions from a file. |
-| 10 | -o | Prints only matching (non-empty) parts of a matching string. | |
+| 10 | -o | Prints only matching (non-empty) parts of a matching string. | 
 
 Flags support pairwise combinations (e.g., `-iv`, `-in`).
