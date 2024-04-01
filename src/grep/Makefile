@@ -1,11 +1,7 @@
-# CC_NOT_FLAGGED = gcc -std=c11
 CC_FLAGGED = gcc -std=c11 -Wall -Werror -Wextra 
 CLANG_COPY = cp ../../materials/linters/.clang-format ./ 
 CLANGER = -clang-format -i *.c *.h
-# LEAKER = leaks -atExit --
-# CPPCHEKER = cppcheck --enable=all --suppress=missingIncludeSystem ./
 
-# $(CLANGER)
 .PHONY : all build s21_grep clean rebuild
 
 all : s21_grep 
